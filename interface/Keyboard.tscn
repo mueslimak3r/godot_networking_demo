@@ -1,0 +1,295 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://interface/Keyboard.gd" type="Script" id=1]
+
+[node name="keyboard" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -448.0
+margin_bottom = -173.0
+rect_scale = Vector2( 0.7, 0.7 )
+script = ExtResource( 1 )
+
+[node name="row1" type="HBoxContainer" parent="."]
+editor/display_folded = true
+margin_right = 576.0
+margin_bottom = 96.0
+custom_constants/separation = 0
+
+[node name="q" type="Button" parent="row1"]
+margin_right = 57.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "q"
+
+[node name="w" type="Button" parent="row1"]
+margin_left = 57.0
+margin_right = 114.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "w"
+
+[node name="e" type="Button" parent="row1"]
+margin_left = 114.0
+margin_right = 171.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "e"
+
+[node name="r" type="Button" parent="row1"]
+margin_left = 171.0
+margin_right = 228.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "r"
+
+[node name="t" type="Button" parent="row1"]
+margin_left = 228.0
+margin_right = 285.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "t"
+
+[node name="y" type="Button" parent="row1"]
+margin_left = 285.0
+margin_right = 342.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "y"
+
+[node name="u" type="Button" parent="row1"]
+margin_left = 342.0
+margin_right = 399.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "u"
+
+[node name="i" type="Button" parent="row1"]
+margin_left = 399.0
+margin_right = 456.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "i"
+
+[node name="o" type="Button" parent="row1"]
+margin_left = 456.0
+margin_right = 513.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "o"
+
+[node name="p" type="Button" parent="row1"]
+margin_left = 513.0
+margin_right = 576.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "p"
+
+[node name="row2" type="HBoxContainer" parent="."]
+editor/display_folded = true
+margin_top = 97.0
+margin_right = 576.0
+margin_bottom = 193.0
+custom_constants/separation = 0
+
+[node name="a" type="Button" parent="row2"]
+margin_right = 57.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "a"
+
+[node name="s" type="Button" parent="row2"]
+margin_left = 57.0
+margin_right = 114.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "s"
+
+[node name="d" type="Button" parent="row2"]
+margin_left = 114.0
+margin_right = 171.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "d"
+
+[node name="f" type="Button" parent="row2"]
+margin_left = 171.0
+margin_right = 228.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "f"
+
+[node name="g" type="Button" parent="row2"]
+margin_left = 228.0
+margin_right = 285.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "g"
+
+[node name="h" type="Button" parent="row2"]
+margin_left = 285.0
+margin_right = 342.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "h"
+
+[node name="j" type="Button" parent="row2"]
+margin_left = 342.0
+margin_right = 399.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "j"
+
+[node name="k" type="Button" parent="row2"]
+margin_left = 399.0
+margin_right = 456.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "k"
+
+[node name="l" type="Button" parent="row2"]
+margin_left = 456.0
+margin_right = 513.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "l"
+
+[node name="clear" type="Button" parent="row2"]
+margin_left = 513.0
+margin_right = 576.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "clear"
+
+[node name="row3" type="HBoxContainer" parent="."]
+editor/display_folded = true
+margin_top = 194.0
+margin_right = 576.0
+margin_bottom = 290.0
+custom_constants/separation = 0
+
+[node name="z" type="Button" parent="row3"]
+margin_right = 57.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "z"
+
+[node name="x" type="Button" parent="row3"]
+margin_left = 57.0
+margin_right = 114.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "x"
+
+[node name="c" type="Button" parent="row3"]
+margin_left = 114.0
+margin_right = 171.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "c"
+
+[node name="v" type="Button" parent="row3"]
+margin_left = 171.0
+margin_right = 228.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "v"
+
+[node name="b" type="Button" parent="row3"]
+margin_left = 228.0
+margin_right = 285.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "b"
+
+[node name="n" type="Button" parent="row3"]
+margin_left = 285.0
+margin_right = 342.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "n"
+
+[node name="m" type="Button" parent="row3"]
+margin_left = 342.0
+margin_right = 399.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "m"
+
+[node name="empty1" type="Button" parent="row3"]
+margin_left = 399.0
+margin_right = 456.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="empty2" type="Button" parent="row3"]
+margin_left = 456.0
+margin_right = 513.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="empty3" type="Button" parent="row3"]
+margin_left = 513.0
+margin_right = 576.0
+margin_bottom = 96.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+[connection signal="pressed" from="row1/q" to="." method="_on_input" binds= [ "q" ]]
+[connection signal="pressed" from="row1/w" to="." method="_on_input" binds= [ "w" ]]
+[connection signal="pressed" from="row1/e" to="." method="_on_input" binds= [ "e" ]]
+[connection signal="pressed" from="row1/r" to="." method="_on_input" binds= [ "r" ]]
+[connection signal="pressed" from="row1/t" to="." method="_on_input" binds= [ "t" ]]
+[connection signal="pressed" from="row1/y" to="." method="_on_input" binds= [ "y" ]]
+[connection signal="pressed" from="row1/u" to="." method="_on_input" binds= [ "u" ]]
+[connection signal="pressed" from="row1/i" to="." method="_on_input" binds= [ "i" ]]
+[connection signal="pressed" from="row1/o" to="." method="_on_input" binds= [ "o" ]]
+[connection signal="pressed" from="row1/p" to="." method="_on_input" binds= [ "p" ]]
+[connection signal="pressed" from="row2/a" to="." method="_on_input" binds= [ "a" ]]
+[connection signal="pressed" from="row2/s" to="." method="_on_input" binds= [ "s" ]]
+[connection signal="pressed" from="row2/d" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row2/f" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row2/g" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row2/h" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row2/j" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row2/k" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row2/l" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row2/clear" to="." method="_on_clear_pressed"]
+[connection signal="pressed" from="row3/z" to="." method="_on_input" binds= [ "z" ]]
+[connection signal="pressed" from="row3/x" to="." method="_on_input" binds= [ "x" ]]
+[connection signal="pressed" from="row3/c" to="." method="_on_input" binds= [ "c" ]]
+[connection signal="pressed" from="row3/v" to="." method="_on_input" binds= [ "v" ]]
+[connection signal="pressed" from="row3/b" to="." method="_on_input" binds= [ "b" ]]
+[connection signal="pressed" from="row3/n" to="." method="_on_input" binds= [ "n" ]]
+[connection signal="pressed" from="row3/m" to="." method="_on_input" binds= [ "m" ]]
+[connection signal="pressed" from="row3/empty1" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row3/empty2" to="." method="_on_input" binds= [ "1" ]]
+[connection signal="pressed" from="row3/empty3" to="." method="_on_input" binds= [ "1" ]]
